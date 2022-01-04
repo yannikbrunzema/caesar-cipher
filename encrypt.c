@@ -17,7 +17,7 @@ void main(int argc, char *argv[])
         {
             msg[i]=toupper(msg[i]);
         }
-        for (int i = 0; i<msg_len; i++)
+        for (int i = 0; i < msg_len; i++)
         {
             if (isalnum(msg[i]) && !(isdigit(msg[i])))
             {
@@ -34,9 +34,8 @@ void main(int argc, char *argv[])
             {
                 enc[i]=msg[i];
             }
-
         }
-        for (int i = 0; i<msg_len; i++)
+        for (int i = 0; i  < msg_len; i++)
         {
             printf("%c", enc[i]);
         }
